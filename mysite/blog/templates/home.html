@@ -1,0 +1,29 @@
+<!-- blog/templates/home.html-->
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Train Up a Child Organization</title>
+   <link rel="stylesheet" href="static/styles.css">
+<nav>
+      <p></p>
+      <a href="{% url 'home' %}">Home</a>
+      <a href="{% url 'about' %}">About</a>
+   
+   </nav>
+</head>
+<body>
+   {% block content %}
+    <h1>Hearty Welcome to My First Blog Home Page</h1>
+    <p>My Blog's Homepage</p>
+   {% endblock %}
+   <h1>Hello! Welcome to our Blog Homepage</h1>
+   
+</body>
+</html>
+
+

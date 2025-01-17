@@ -1,0 +1,59 @@
+
+title {
+    font-size: x-large;
+}
+
+h1 {
+    color: blueviolet;
+    margin-left: 20px;
+}
+
+nav {
+    color: snow;
+    font: bold;
+    text-align: left;
+}
+
+body {
+      /* Set the image as the background */
+      background-image: url('projects_image.jpg'); /* Replace with your image path */
+      
+      /* Ensure the background covers the entire page */
+      background-size: cover;
+      
+      /* Position the background image */
+      background-position: center;
+      
+      /* Prevent repeating the image */
+      background-repeat: no-repeat;
+      
+      /* Keep the background fixed during scroll */
+      background-attachment: fixed;
+      
+      /* Add a fallback background color */
+      background-color: #f0f0f0;
+      
+      margin: 0;
+      padding: 0;
+    }
+
+
+p {
+    color: snow;
+}
+/*   
+body {
+      /* Fallback solid color */
+      background-color: #f0f8ff; /* AliceBlue as an example */
+      
+      /* Background image */
+      background-image: url('color-back.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+
+      margin: 0;
+      padding: 0;
+    }
+*/

@@ -1,31 +1,20 @@
-html
-   <!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       <title>{% block title %} My Blog {% endblock %}</title>
-   </head>
-   <body>
-       <header>
-           <nav>
-               <ul>
-                   <li><a href="{% url 'home' %}">Home</a></li>
-                   <li><a href="{% url 'about' %}">About</a></li>
-               </ul>
-           </nav>
-       </header>
-
-       <main>
-           {% block content %}
-        <!-- Content for specific pages will be injected here -->
-         <h1>My Blog - Train Up a Child Community</h1>
-         <p>For our Tommorrow: Decide to pick and train an orphan today through our structured programme.</p>
-        {% endblock %}
-       </main>
-
-       <footer>
-           <p>&copy; 2024 My Blog</p>
-       </footer>
-   </body>
-   </html>
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Title comes here later ...</title>
+    <link rel="stylesheet" href="{% static '/static/styles.css' %}">
+    <nav>
+                <p></p>
+                <a href="{% url 'home' %}">Home</a>
+                <a href="{% url 'about' %}">About</a>
+              
+        </nav>
+</head>
+<body>
+    <h1> Base Blog </h1>
+    
+</body>
+</html>
